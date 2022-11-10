@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src ="./js/script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="main-form" name="mailfrom">
+            <h1>Excel Functions</h1>
+            <h3>Enter your numbers separated by spaces:</h3>
+
+            <div>
+                <input type="text" name="numbers" id="numbers">
+                <input type="radio" id="autosum" name="Numbers" value="AutoSum" checked>
+                <label for="premium">AutoSum</label>
+                <br>
+                <input type="radio" id="average" name="Numbers" value="Average">
+                <label for="standard">Average</label>
+                <br>
+                <input type="radio" id="max" name="Numbers" value="Max">
+                <label for="basic">Max</label>
+                <br>
+                <input type="radio" id="min" name="Numbers" value="Min">
+                <label for="basic">Min</label>
+            </div>
+            <br>
+
+
+            <input type="button" onclick="myExcelFuns()" value="Calculate" name="Calculate">
+
+        <div id="Output">
+
+        </div>
+
+        <footer>
+            <p>
+                ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - SELLAM Jeremy
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
