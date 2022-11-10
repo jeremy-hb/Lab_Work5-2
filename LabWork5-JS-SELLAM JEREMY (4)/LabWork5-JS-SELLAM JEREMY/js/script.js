@@ -10,16 +10,22 @@ function userForm() {
     'input[name="membership"]:checked'
   ).value;
   outputDiv.innerHTML =
-    "FirstName" +
+    "FirstName : " +
+    FirstName +
     "<br>" +
+    "Last Name : " +
     LastName +
     "<br>" +
+    "Email Address : " +
     EmailAddress +
     "<br>" +
+    "Address : " +
     Address +
     "<br>" +
+    "City : " +
     City +
     "<br>" +
+    "Province : " +
     Province +
     "<br>" +
     MemberShip;
